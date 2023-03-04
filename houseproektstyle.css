@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 12pt;
+	font-family: Verdana;
+}
+
+
+body{
+	padding: 0;	
+}
+
+#container{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#shapka{
+	background-image: url(shapka_div.jpg);
+	
+	height: 190px;
+	width: 1000px;
+	clear: both;
+}
+
+#menu{
+	width: 260px;
+	float: left;
+	background: #C8FEFF;
+	color: #541C1C;
+	padding: 10px 30px;
+	height: 100%;
+	position: absolute;
+}
+
+#main{
+	margin-left: 300px;
+	float: right;
+	padding: 10px;
+	height: 100%;
+	background: #FEFFE3;
+	position: absolute;
+	width: 680px;
+}
+
+table{
+	background: white;
+	padding: 10px;
+	text-align: center;
+}
+
+.descrip{
+	background: #E7E4EC;
+	text-align: center;
+	height: 70px;
+}
+
+.zakaz{
+	color: #1D3D7F ;
+	font-weight: bold;
+	font-size: 13pt;
+	text-decoration: none;
+}
+
+.proekt{
+	color: #7F1D2D ;
+	font-weight: bold;
+	font-size: 12pt;
+	text-decoration: none;
+}
+
+ol {
+	color: #7F1D2D ;
+	font-weight: bold;
+	font-size: 12pt;
+
+}
+ul {
+	color: #7F1D2D ;
+	font-weight: bold;
+	font-size: 12pt;
+}
+h4{
+	color: #7F1D2D ;
+	font-weight: bold;
+	font-size: 14pt;
+}
+h3{
+	color: #1334A8;
+	font-size: 16pt;
+}
+.catalogdesc{
+	color: #1334A8;
+	font-size: 13pt;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: orange;
+}
